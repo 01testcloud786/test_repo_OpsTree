@@ -5,3 +5,4 @@ From tomcat:8-jre8
 MAINTAINER "dhirendravats786@gmail.com" 
 COPY ./webapp/target/*.war /usr/local/tomcat/webapps
 
+EXPOSE 8080
